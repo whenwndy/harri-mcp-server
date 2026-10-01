@@ -1,1 +1,1210 @@
-{"availability":[{"avail_id":"AVL01","effective_date":"2026-06-15","employee_id":"EMP01","location_id":"L004","preferences":[{"available":true,"day":"Monday","end":"18:00","start":"08:00"},{"available":true,"day":"Tuesday","end":"18:00","start":"08:00"},{"available":false,"day":"Wednesday"},{"available":true,"day":"Thursday","end":"18:00","start":"08:00"},{"available":true,"day":"Friday","end":"18:00","start":"08:00"},{"available":true,"day":"Saturday","end":"15:00","start":"09:00"},{"available":false,"day":"Sunday"}]},{"avail_id":"AVL02","effective_date":"2026-06-15","employee_id":"EMP11","location_id":"L005","preferences":[{"available":true,"day":"Monday","end":"21:00","start":"15:00"},{"available":true,"day":"Tuesday","end":"21:00","start":"15:00"},{"available":true,"day":"Wednesday","end":"21:00","start":"15:00"},{"available":true,"day":"Thursday","end":"21:00","start":"15:00"},{"available":true,"day":"Friday","end":"22:00","start":"15:00"},{"available":false,"day":"Saturday"},{"available":false,"day":"Sunday"}]},{"avail_id":"AVL03","effective_date":"2026-07-01","employee_id":"EMP21","location_id":"L003","preferences":[{"available":true,"day":"Monday","end":"16:00","start":"06:00"},{"available":true,"day":"Tuesday","end":"16:00","start":"06:00"},{"available":true,"day":"Wednesday","end":"16:00","start":"06:00"},{"available":true,"day":"Thursday","end":"16:00","start":"06:00"},{"available":true,"day":"Friday","end":"16:00","start":"06:00"},{"available":false,"day":"Saturday"},{"available":false,"day":"Sunday"}]},{"avail_id":"AVL04","effective_date":"2026-07-01","employee_id":"EMP22","location_id":"L003","preferences":[{"available":false,"day":"Monday"},{"available":false,"day":"Tuesday"},{"available":true,"day":"Wednesday","end":"23:00","start":"15:00"},{"available":true,"day":"Thursday","end":"23:00","start":"15:00"},{"available":true,"day":"Friday","end":"23:00","start":"15:00"},{"available":true,"day":"Saturday","end":"23:00","start":"12:00"},{"available":true,"day":"Sunday","end":"21:00","start":"12:00"}]},{"avail_id":"AVL05","effective_date":"2026-07-01","employee_id":"EMP23","location_id":"L003","preferences":[{"available":false,"day":"Monday"},{"available":true,"day":"Saturday","end":"20:00","start":"09:00"},{"available":true,"day":"Sunday","end":"17:00","start":"10:00"}]}],"compliance_alerts":[{"alert_id":"CMP01","created_at":"2026-07-01","employee_id":"EMP03","location_id":"L004","message":"Jade Nishida's minor work permit expires 2026-08-15. Renewal required.","severity":"high","type":"minor_work_permit_expiry"},{"alert_id":"CMP04","created_at":"2026-07-08","employee_id":"EMP23","location_id":"L003","message":"Harper Robinson (Minor) limited to maximum 24 hours per week during summer scheduling blocks.","severity":"medium","type":"minor_hours_threshold"}],"employees":[{"certifications":["Food Handler"],"department":"Front of House","email":"mia.torres@swigdrinks.com","hire_date":"2023-03-12","id":"EMP01","location_id":"L004","minor":false,"name":"Mia Torres","pay_rate":13.5,"phone":"435-555-1001","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler","Shift Lead Cert"],"department":"Front of House","email":"caleb.fenn@swigdrinks.com","hire_date":"2022-07-05","id":"EMP02","location_id":"L004","minor":false,"name":"Caleb Fenn","pay_rate":16.25,"phone":"435-555-1002","role":"Shift Lead","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"jade.nishida@swigdrinks.com","hire_date":"2024-01-08","id":"EMP03","location_id":"L004","minor":true,"name":"Jade Nishida","pay_rate":13.0,"phone":"435-555-1003","role":"Drink Specialist","status":"active","work_permit_expiry":"2026-08-15"},{"certifications":["Food Handler","ServSafe Manager"],"department":"Management","email":"brynn.lawson@swigdrinks.com","hire_date":"2021-05-20","id":"EMP04","location_id":"L004","minor":false,"name":"Brynn Lawson","pay_rate":52000,"pay_type":"salary","phone":"435-555-1004","role":"General Manager","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"dillon.park@swigdrinks.com","hire_date":"2023-11-01","id":"EMP05","location_id":"L004","minor":false,"name":"Dillon Park","pay_rate":13.5,"phone":"435-555-1005","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"sadie.ruiz@swigdrinks.com","hire_date":"2024-02-14","id":"EMP06","location_id":"L002","minor":true,"name":"Sadie Ruiz","pay_rate":13.25,"phone":"801-555-2001","role":"Drink Specialist","status":"active","work_permit_expiry":"2026-07-01"},{"certifications":["Food Handler","Shift Lead Cert"],"department":"Front of House","email":"noah.christensen@swigdrinks.com","hire_date":"2022-09-19","id":"EMP07","location_id":"L002","minor":false,"name":"Noah Christensen","pay_rate":15.75,"phone":"801-555-2002","role":"Shift Lead","status":"active"},{"certifications":[],"department":"Front of House","email":"lexi.hatch@swigdrinks.com","hire_date":"2024-05-06","id":"EMP08","location_id":"L002","minor":false,"name":"Lexi Hatch","pay_rate":13.0,"phone":"801-555-2003","role":"Drink Specialist","status":"onboarding"},{"certifications":["Food Handler","ServSafe Manager"],"department":"Management","email":"tanner.holm@swigdrinks.com","hire_date":"2021-11-15","id":"EMP09","location_id":"L002","minor":false,"name":"Tanner Holm","pay_rate":51000,"pay_type":"salary","phone":"801-555-2004","role":"General Manager","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"amber.griffith@swigdrinks.com","hire_date":"2023-06-22","id":"EMP10","location_id":"L001","minor":false,"name":"Amber Griffith","pay_rate":13.75,"phone":"801-555-3001","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"jaxon.miller@swigdrinks.com","hire_date":"2025-01-15","id":"EMP11","location_id":"L005","minor":false,"name":"Jaxon Miller","pay_rate":13.5,"phone":"385-555-4001","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler","Shift Lead Cert"],"department":"Front of House","email":"katelyn.smith@swigdrinks.com","hire_date":"2024-08-11","id":"EMP12","location_id":"L005","minor":false,"name":"Katelyn Smith","pay_rate":16.0,"phone":"385-555-4002","role":"Shift Lead","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"liam.davis@swigdrinks.com","hire_date":"2025-03-22","id":"EMP13","location_id":"L003","minor":true,"name":"Liam Davis","pay_rate":13.0,"phone":"385-555-5001","role":"Drink Specialist","status":"active","work_permit_expiry":"2027-02-10"},{"certifications":["Food Handler","ServSafe Manager"],"department":"Management","email":"cassidy.reeves@swigdrinks.com","hire_date":"2022-02-14","id":"EMP14","location_id":"L001","minor":false,"name":"Cassidy Reeves","pay_rate":53000,"pay_type":"salary","phone":"801-555-3002","role":"General Manager","status":"active"},{"certifications":["Food Handler","ServSafe Manager"],"department":"Management","email":"tyson.vance@swigdrinks.com","hire_date":"2023-05-19","id":"EMP15","location_id":"L005","minor":false,"name":"Tyson Vance","pay_rate":54000,"pay_type":"salary","phone":"385-555-4000","role":"General Manager","status":"active"},{"certifications":["Food Handler","ServSafe Manager"],"department":"Management","email":"elena.rostova@swigdrinks.com","hire_date":"2021-09-01","id":"EMP16","location_id":"L003","minor":false,"name":"Elena Rostova","pay_rate":56000,"pay_type":"salary","phone":"385-555-5000","role":"General Manager","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"oliver.cooper@swigdrinks.com","hire_date":"2025-05-12","id":"EMP17","location_id":"L003","minor":false,"name":"Oliver Cooper","pay_rate":13.5,"phone":"385-555-5002","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler","Shift Lead Cert"],"department":"Front of House","email":"maya.patel@swigdrinks.com","hire_date":"2023-10-30","id":"EMP18","location_id":"L003","minor":false,"name":"Maya Patel","pay_rate":16.5,"phone":"385-555-5003","role":"Shift Lead","status":"active"},{"certifications":[],"department":"Front of House","email":"chloe.bennett@swigdrinks.com","hire_date":"2026-06-10","id":"EMP19","location_id":"L001","minor":false,"name":"Chloe Bennett","pay_rate":13.25,"phone":"801-555-3003","role":"Drink Specialist","status":"onboarding"},{"certifications":["Food Handler"],"department":"Front of House","email":"ethan.hunt@swigdrinks.com","hire_date":"2024-11-01","id":"EMP20","location_id":"L004","minor":false,"name":"Ethan Hunt","pay_rate":13.75,"phone":"435-555-1006","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler","Shift Lead Cert"],"department":"Front of House","email":"isabella.garcia@swigdrinks.com","hire_date":"2024-03-19","id":"EMP21","location_id":"L003","minor":false,"name":"Isabella Garcia","pay_rate":16.0,"phone":"385-555-5004","role":"Shift Lead","status":"active"},{"certifications":["Food Handler","Shift Lead Cert"],"department":"Front of House","email":"lucas.martinez@swigdrinks.com","hire_date":"2023-08-24","id":"EMP22","location_id":"L003","minor":false,"name":"Lucas Martinez","pay_rate":16.25,"phone":"385-555-5005","role":"Shift Lead","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"harper.robinson@swigdrinks.com","hire_date":"2025-05-11","id":"EMP23","location_id":"L003","minor":true,"name":"Harper Robinson","pay_rate":13.0,"phone":"385-555-5006","role":"Drink Specialist","status":"active","work_permit_expiry":"2027-04-01"},{"certifications":["Food Handler"],"department":"Front of House","email":"mason.clark@swigdrinks.com","hire_date":"2024-11-14","id":"EMP24","location_id":"L003","minor":false,"name":"Mason Clark","pay_rate":13.5,"phone":"385-555-5007","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"evelyn.rodriguez@swigdrinks.com","hire_date":"2023-04-02","id":"EMP25","location_id":"L003","minor":false,"name":"Evelyn Rodriguez","pay_rate":13.75,"phone":"385-555-5008","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"elijah.lewis@swigdrinks.com","hire_date":"2025-06-01","id":"EMP26","location_id":"L003","minor":true,"name":"Elijah Lewis","pay_rate":13.0,"phone":"385-555-5009","role":"Drink Specialist","status":"active","work_permit_expiry":"2027-05-15"},{"certifications":[],"department":"Front of House","email":"logan.lee@swigdrinks.com","hire_date":"2026-07-01","id":"EMP27","location_id":"L003","minor":false,"name":"Logan Lee","pay_rate":13.25,"phone":"385-555-5010","role":"Drink Specialist","status":"onboarding"},{"certifications":["Food Handler"],"department":"Front of House","email":"ava.walker@swigdrinks.com","hire_date":"2024-01-20","id":"EMP28","location_id":"L003","minor":false,"name":"Ava Walker","pay_rate":13.5,"phone":"385-555-5011","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"jackson.hall@swigdrinks.com","hire_date":"2024-09-12","id":"EMP29","location_id":"L003","minor":false,"name":"Jackson Hall","pay_rate":13.5,"phone":"385-555-5012","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"madison.allen@swigdrinks.com","hire_date":"2025-02-28","id":"EMP30","location_id":"L003","minor":true,"name":"Madison Allen","pay_rate":13.0,"phone":"385-555-5013","role":"Drink Specialist","status":"active","work_permit_expiry":"2027-02-15"},{"certifications":["Food Handler"],"department":"Front of House","email":"sebastian.young@swigdrinks.com","hire_date":"2023-11-05","id":"EMP31","location_id":"L003","minor":false,"name":"Sebastian Young","pay_rate":14.0,"phone":"385-555-5014","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"scarlett.king@swigdrinks.com","hire_date":"2024-05-17","id":"EMP32","location_id":"L003","minor":false,"name":"Scarlett King","pay_rate":13.75,"phone":"385-555-5015","role":"Drink Specialist","status":"active"},{"certifications":[],"department":"Front of House","email":"aiden.wright@swigdrinks.com","hire_date":"2026-07-02","id":"EMP33","location_id":"L003","minor":false,"name":"Aiden Wright","pay_rate":13.25,"phone":"385-555-5016","role":"Drink Specialist","status":"onboarding"},{"certifications":["Food Handler"],"department":"Front of House","email":"emily.scott@swigdrinks.com","hire_date":"2024-07-11","id":"EMP34","location_id":"L003","minor":false,"name":"Emily Scott","pay_rate":13.5,"phone":"385-555-5017","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"matthew.torres@swigdrinks.com","hire_date":"2025-04-19","id":"EMP35","location_id":"L003","minor":true,"name":"Matthew Torres","pay_rate":13.0,"phone":"385-555-5018","role":"Drink Specialist","status":"active","work_permit_expiry":"2027-03-30"},{"certifications":["Food Handler"],"department":"Front of House","email":"aria.nguyen@swigdrinks.com","hire_date":"2023-12-10","id":"EMP36","location_id":"L003","minor":false,"name":"Aria Nguyen","pay_rate":13.85,"phone":"385-555-5019","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"david.green@swigdrinks.com","hire_date":"2024-02-22","id":"EMP37","location_id":"L003","minor":false,"name":"David Green","pay_rate":13.5,"phone":"385-555-5020","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"chloe.baker@swigdrinks.com","hire_date":"2024-06-05","id":"EMP38","location_id":"L003","minor":false,"name":"Chloe Baker","pay_rate":13.5,"phone":"385-555-5021","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"joseph.adams@swigdrinks.com","hire_date":"2025-01-08","id":"EMP39","location_id":"L003","minor":false,"name":"Joseph Adams","pay_rate":13.5,"phone":"385-555-5022","role":"Drink Specialist","status":"active"},{"certifications":["Food Handler"],"department":"Front of House","email":"lily.nelson@swigdrinks.com","hire_date":"2024-10-18","id":"EMP40","location_id":"L003","minor":false,"name":"Lily Nelson","pay_rate":13.5,"phone":"385-555-5023","role":"Drink Specialist","status":"active"}],"labor_summary":[{"breakdown":[{"cost":10647.0,"hours":788.6,"role":"Drink Specialist"},{"cost":2923.2,"hours":179.8,"role":"Shift Lead"}],"labor_cost_pct":18.2,"location_id":"L004","period":"2026-06-08/2026-07-15","total_hours":968.4,"total_labor_cost":13570.2},{"breakdown":[{"cost":8958.6,"hours":663.5,"role":"Drink Specialist"},{"cost":2847.6,"hours":177.9,"role":"Shift Lead"}],"labor_cost_pct":17.9,"location_id":"L005","period":"2026-06-08/2026-07-15","total_hours":841.4,"total_labor_cost":11806.2},{"breakdown":[{"cost":8568.0,"hours":648.9,"role":"Drink Specialist"},{"cost":3036.6,"hours":183.9,"role":"Shift Lead"}],"labor_cost_pct":18.5,"location_id":"L003","period":"2026-06-08/2026-07-15","total_hours":832.8,"total_labor_cost":11604.6}],"locations":[{"address":"4104 Riverdale Rd, Riverdale, UT 84405","id":"L001","manager":"Cassidy Reeves","manager_id":"EMP14","name":"Swig Riverdale","phone":"801-555-0999"},{"address":"320 N University Ave, Provo, UT 84601","id":"L002","manager":"Tanner Holm","manager_id":"EMP09","name":"Swig Provo Canyon","phone":"801-555-0188"},{"address":"11472 S District Main Dr, South Jordan, UT 84095","id":"L003","manager":"Jennifer Hynes","manager_id":"EMP16","name":"Swig Daybreak","phone":"385-555-0567"},{"address":"1045 E St. George Blvd, St. George, UT 84770","id":"L004","manager":"Brynn Lawson","manager_id":"EMP04","name":"Swig St. George Blvd","phone":"435-555-0101"},{"address":"3450 N Digital Dr, Lehi, UT 84043","id":"L005","manager":"Tyson Vance","manager_id":"EMP15","name":"Swig Lehi Traverse","phone":"385-555-0412"}],"onboarding":[{"completion_pct":50,"employee_id":"EMP27","location_id":"L003","onboarding_id":"ONB03","start_date":"2026-07-01","status":"in_progress","tasks":[{"status":"completed","task":"I-9 Form"},{"status":"completed","task":"W-4 Form"},{"status":"pending","task":"Food Handler Certification"},{"status":"in_progress","task":"Drink Build Training Module"}]},{"completion_pct":30,"employee_id":"EMP33","location_id":"L003","onboarding_id":"ONB04","start_date":"2026-07-02","status":"in_progress","tasks":[{"status":"completed","task":"I-9 Form"},{"status":"pending","task":"W-4 Form"},{"status":"pending","task":"Drive-Thru Training Module"}]}],"open_shifts":[{"date":"2026-07-09","end_time":"20:00","location_id":"L005","open_shift_id":"OPN01","reason":"No coverage submitted","role":"Drink Specialist","start_time":"14:00","station":"Drink Build"},{"date":"2026-07-13","end_time":"16:00","location_id":"L003","open_shift_id":"OPN02","reason":"Mason Clark on approved PTO","role":"Drink Specialist","start_time":"08:00","station":"Drink Build"},{"date":"2026-07-14","end_time":"15:00","location_id":"L003","open_shift_id":"OPN03","reason":"Mason Clark on approved PTO","role":"Drink Specialist","start_time":"09:00","station":"Drive-Thru Window"},{"date":"2026-07-17","end_time":"14:00","location_id":"L003","open_shift_id":"OPN04","reason":"Ava Walker out of town on PTO","role":"Drink Specialist","start_time":"07:00","station":"Drive-Thru Order"},{"date":"2026-07-18","end_time":"23:00","location_id":"L003","open_shift_id":"OPN05","reason":"Scarlett King on approved PTO weekend","role":"Drink Specialist","start_time":"16:00","station":"Front Counter"}],"schedule":[{"date":"2026-07-07","employee_id":"EMP11","end_time":"21:00","location_id":"L005","role":"Drink Specialist","shift_id":"SHF10","start_time":"15:00","station":"Drink Build","status":"published"},{"date":"2026-07-13","employee_id":"EMP21","end_time":"14:00","location_id":"L003","role":"Shift Lead","shift_id":"SHF20","start_time":"06:00","station":"Front Counter","status":"published"},{"date":"2026-07-13","employee_id":"EMP25","end_time":"16:00","location_id":"L003","role":"Drink Specialist","shift_id":"SHF21","start_time":"08:00","station":"Drive-Thru Window","status":"published"},{"date":"2026-07-15","employee_id":"EMP22","end_time":"23:00","location_id":"L003","role":"Shift Lead","shift_id":"SHF22","start_time":"15:00","station":"Front Counter","status":"published"},{"date":"2026-07-15","employee_id":"EMP17","end_time":"21:00","location_id":"L003","role":"Drink Specialist","shift_id":"SHF23","start_time":"15:00","station":"Drink Build","status":"published"},{"date":"2026-07-18","employee_id":"EMP23","end_time":"15:00","location_id":"L003","role":"Drink Specialist","shift_id":"SHF24","start_time":"09:00","station":"Drink Build","status":"draft"}],"time_and_attendance":[{"clock_in":"14:58","clock_out":"21:02","date":"2026-07-06","employee_id":"EMP11","hours_worked":6.07,"location_id":"L005","notes":"","record_id":"TNA10","shift_id":"SHF10"}],"time_off_requests":[{"dates":["2026-07-13","2026-07-14"],"employee_id":"EMP24","location_id":"L003","reason":"Family Event","request_id":"TOR12","status":"approved","submitted_on":"2026-07-05"},{"dates":["2026-07-17"],"employee_id":"EMP28","location_id":"L003","reason":"Out of town","request_id":"TOR13","status":"approved","submitted_on":"2026-07-01"},{"dates":["2026-07-18","2026-07-19"],"employee_id":"EMP32","location_id":"L003","reason":"Personal Weekend","request_id":"TOR14","status":"approved","submitted_on":"2026-07-03"}]}
+{
+  "availability": [
+    {
+      "avail_id": "AVL01",
+      "effective_date": "2026-06-15",
+      "employee_id": "EMP01",
+      "location_id": "L004",
+      "preferences": [
+        {
+          "available": true,
+          "day": "Monday",
+          "end": "18:00",
+          "start": "08:00"
+        },
+        {
+          "available": true,
+          "day": "Tuesday",
+          "end": "18:00",
+          "start": "08:00"
+        },
+        {
+          "available": false,
+          "day": "Wednesday"
+        },
+        {
+          "available": true,
+          "day": "Thursday",
+          "end": "18:00",
+          "start": "08:00"
+        },
+        {
+          "available": true,
+          "day": "Friday",
+          "end": "18:00",
+          "start": "08:00"
+        },
+        {
+          "available": true,
+          "day": "Saturday",
+          "end": "15:00",
+          "start": "09:00"
+        },
+        {
+          "available": false,
+          "day": "Sunday"
+        }
+      ]
+    },
+    {
+      "avail_id": "AVL02",
+      "effective_date": "2026-06-15",
+      "employee_id": "EMP11",
+      "location_id": "L005",
+      "preferences": [
+        {
+          "available": true,
+          "day": "Monday",
+          "end": "21:00",
+          "start": "15:00"
+        },
+        {
+          "available": true,
+          "day": "Tuesday",
+          "end": "21:00",
+          "start": "15:00"
+        },
+        {
+          "available": true,
+          "day": "Wednesday",
+          "end": "21:00",
+          "start": "15:00"
+        },
+        {
+          "available": true,
+          "day": "Thursday",
+          "end": "21:00",
+          "start": "15:00"
+        },
+        {
+          "available": true,
+          "day": "Friday",
+          "end": "22:00",
+          "start": "15:00"
+        },
+        {
+          "available": false,
+          "day": "Saturday"
+        },
+        {
+          "available": false,
+          "day": "Sunday"
+        }
+      ]
+    },
+    {
+      "avail_id": "AVL03",
+      "effective_date": "2026-07-01",
+      "employee_id": "EMP21",
+      "location_id": "L003",
+      "preferences": [
+        {
+          "available": true,
+          "day": "Monday",
+          "end": "16:00",
+          "start": "06:00"
+        },
+        {
+          "available": true,
+          "day": "Tuesday",
+          "end": "16:00",
+          "start": "06:00"
+        },
+        {
+          "available": true,
+          "day": "Wednesday",
+          "end": "16:00",
+          "start": "06:00"
+        },
+        {
+          "available": true,
+          "day": "Thursday",
+          "end": "16:00",
+          "start": "06:00"
+        },
+        {
+          "available": true,
+          "day": "Friday",
+          "end": "16:00",
+          "start": "06:00"
+        },
+        {
+          "available": false,
+          "day": "Saturday"
+        },
+        {
+          "available": false,
+          "day": "Sunday"
+        }
+      ]
+    },
+    {
+      "avail_id": "AVL04",
+      "effective_date": "2026-07-01",
+      "employee_id": "EMP22",
+      "location_id": "L003",
+      "preferences": [
+        {
+          "available": false,
+          "day": "Monday"
+        },
+        {
+          "available": false,
+          "day": "Tuesday"
+        },
+        {
+          "available": true,
+          "day": "Wednesday",
+          "end": "23:00",
+          "start": "15:00"
+        },
+        {
+          "available": true,
+          "day": "Thursday",
+          "end": "23:00",
+          "start": "15:00"
+        },
+        {
+          "available": true,
+          "day": "Friday",
+          "end": "23:00",
+          "start": "15:00"
+        },
+        {
+          "available": true,
+          "day": "Saturday",
+          "end": "23:00",
+          "start": "12:00"
+        },
+        {
+          "available": true,
+          "day": "Sunday",
+          "end": "21:00",
+          "start": "12:00"
+        }
+      ]
+    },
+    {
+      "avail_id": "AVL05",
+      "effective_date": "2026-07-01",
+      "employee_id": "EMP23",
+      "location_id": "L003",
+      "preferences": [
+        {
+          "available": false,
+          "day": "Monday"
+        },
+        {
+          "available": true,
+          "day": "Saturday",
+          "end": "20:00",
+          "start": "09:00"
+        },
+        {
+          "available": true,
+          "day": "Sunday",
+          "end": "17:00",
+          "start": "10:00"
+        }
+      ]
+    }
+  ],
+  "compliance_alerts": [
+    {
+      "alert_id": "CMP01",
+      "created_at": "2026-07-01",
+      "employee_id": "EMP03",
+      "location_id": "L004",
+      "message": "Jade Nishida's minor work permit expires 2026-08-15. Renewal required.",
+      "severity": "high",
+      "type": "minor_work_permit_expiry"
+    },
+    {
+      "alert_id": "CMP04",
+      "created_at": "2026-07-08",
+      "employee_id": "EMP23",
+      "location_id": "L003",
+      "message": "Harper Robinson (Minor) limited to maximum 24 hours per week during summer scheduling blocks.",
+      "severity": "medium",
+      "type": "minor_hours_threshold"
+    }
+  ],
+  "employees": [
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "mia.torres@swigdrinks.com",
+      "hire_date": "2023-03-12",
+      "id": "EMP01",
+      "location_id": "L004",
+      "minor": false,
+      "name": "Mia Torres",
+      "pay_rate": 13.5,
+      "phone": "435-555-1001",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler",
+        "Shift Lead Cert"
+      ],
+      "department": "Front of House",
+      "email": "caleb.fenn@swigdrinks.com",
+      "hire_date": "2022-07-05",
+      "id": "EMP02",
+      "location_id": "L004",
+      "minor": false,
+      "name": "Caleb Fenn",
+      "pay_rate": 16.25,
+      "phone": "435-555-1002",
+      "role": "Shift Lead",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "jade.nishida@swigdrinks.com",
+      "hire_date": "2024-01-08",
+      "id": "EMP03",
+      "location_id": "L004",
+      "minor": true,
+      "name": "Jade Nishida",
+      "pay_rate": 13.0,
+      "phone": "435-555-1003",
+      "role": "Drink Specialist",
+      "status": "active",
+      "work_permit_expiry": "2026-08-15"
+    },
+    {
+      "certifications": [
+        "Food Handler",
+        "ServSafe Manager"
+      ],
+      "department": "Management",
+      "email": "brynn.lawson@swigdrinks.com",
+      "hire_date": "2021-05-20",
+      "id": "EMP04",
+      "location_id": "L004",
+      "minor": false,
+      "name": "Brynn Lawson",
+      "pay_rate": 52000,
+      "pay_type": "salary",
+      "phone": "435-555-1004",
+      "role": "General Manager",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "dillon.park@swigdrinks.com",
+      "hire_date": "2023-11-01",
+      "id": "EMP05",
+      "location_id": "L004",
+      "minor": false,
+      "name": "Dillon Park",
+      "pay_rate": 13.5,
+      "phone": "435-555-1005",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "sadie.ruiz@swigdrinks.com",
+      "hire_date": "2024-02-14",
+      "id": "EMP06",
+      "location_id": "L002",
+      "minor": true,
+      "name": "Sadie Ruiz",
+      "pay_rate": 13.25,
+      "phone": "801-555-2001",
+      "role": "Drink Specialist",
+      "status": "active",
+      "work_permit_expiry": "2026-07-01"
+    },
+    {
+      "certifications": [
+        "Food Handler",
+        "Shift Lead Cert"
+      ],
+      "department": "Front of House",
+      "email": "noah.christensen@swigdrinks.com",
+      "hire_date": "2022-09-19",
+      "id": "EMP07",
+      "location_id": "L002",
+      "minor": false,
+      "name": "Noah Christensen",
+      "pay_rate": 15.75,
+      "phone": "801-555-2002",
+      "role": "Shift Lead",
+      "status": "active"
+    },
+    {
+      "certifications": [],
+      "department": "Front of House",
+      "email": "lexi.hatch@swigdrinks.com",
+      "hire_date": "2024-05-06",
+      "id": "EMP08",
+      "location_id": "L002",
+      "minor": false,
+      "name": "Lexi Hatch",
+      "pay_rate": 13.0,
+      "phone": "801-555-2003",
+      "role": "Drink Specialist",
+      "status": "onboarding"
+    },
+    {
+      "certifications": [
+        "Food Handler",
+        "ServSafe Manager"
+      ],
+      "department": "Management",
+      "email": "tanner.holm@swigdrinks.com",
+      "hire_date": "2021-11-15",
+      "id": "EMP09",
+      "location_id": "L002",
+      "minor": false,
+      "name": "Tanner Holm",
+      "pay_rate": 51000,
+      "pay_type": "salary",
+      "phone": "801-555-2004",
+      "role": "General Manager",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "amber.griffith@swigdrinks.com",
+      "hire_date": "2023-06-22",
+      "id": "EMP10",
+      "location_id": "L001",
+      "minor": false,
+      "name": "Amber Griffith",
+      "pay_rate": 13.75,
+      "phone": "801-555-3001",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "jaxon.miller@swigdrinks.com",
+      "hire_date": "2025-01-15",
+      "id": "EMP11",
+      "location_id": "L005",
+      "minor": false,
+      "name": "Jaxon Miller",
+      "pay_rate": 13.5,
+      "phone": "385-555-4001",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler",
+        "Shift Lead Cert"
+      ],
+      "department": "Front of House",
+      "email": "katelyn.smith@swigdrinks.com",
+      "hire_date": "2024-08-11",
+      "id": "EMP12",
+      "location_id": "L005",
+      "minor": false,
+      "name": "Katelyn Smith",
+      "pay_rate": 16.0,
+      "phone": "385-555-4002",
+      "role": "Shift Lead",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "liam.davis@swigdrinks.com",
+      "hire_date": "2025-03-22",
+      "id": "EMP13",
+      "location_id": "L003",
+      "minor": true,
+      "name": "Liam Davis",
+      "pay_rate": 13.0,
+      "phone": "385-555-5001",
+      "role": "Drink Specialist",
+      "status": "active",
+      "work_permit_expiry": "2027-02-10"
+    },
+    {
+      "certifications": [
+        "Food Handler",
+        "ServSafe Manager"
+      ],
+      "department": "Management",
+      "email": "cassidy.reeves@swigdrinks.com",
+      "hire_date": "2022-02-14",
+      "id": "EMP14",
+      "location_id": "L001",
+      "minor": false,
+      "name": "Cassidy Reeves",
+      "pay_rate": 53000,
+      "pay_type": "salary",
+      "phone": "801-555-3002",
+      "role": "General Manager",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler",
+        "ServSafe Manager"
+      ],
+      "department": "Management",
+      "email": "tyson.vance@swigdrinks.com",
+      "hire_date": "2023-05-19",
+      "id": "EMP15",
+      "location_id": "L005",
+      "minor": false,
+      "name": "Tyson Vance",
+      "pay_rate": 54000,
+      "pay_type": "salary",
+      "phone": "385-555-4000",
+      "role": "General Manager",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler",
+        "ServSafe Manager"
+      ],
+      "department": "Management",
+      "email": "elena.rostova@swigdrinks.com",
+      "hire_date": "2021-09-01",
+      "id": "EMP16",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Elena Rostova",
+      "pay_rate": 56000,
+      "pay_type": "salary",
+      "phone": "385-555-5000",
+      "role": "General Manager",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "oliver.cooper@swigdrinks.com",
+      "hire_date": "2025-05-12",
+      "id": "EMP17",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Oliver Cooper",
+      "pay_rate": 13.5,
+      "phone": "385-555-5002",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler",
+        "Shift Lead Cert"
+      ],
+      "department": "Front of House",
+      "email": "maya.patel@swigdrinks.com",
+      "hire_date": "2023-10-30",
+      "id": "EMP18",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Maya Patel",
+      "pay_rate": 16.5,
+      "phone": "385-555-5003",
+      "role": "Shift Lead",
+      "status": "active"
+    },
+    {
+      "certifications": [],
+      "department": "Front of House",
+      "email": "chloe.bennett@swigdrinks.com",
+      "hire_date": "2026-06-10",
+      "id": "EMP19",
+      "location_id": "L001",
+      "minor": false,
+      "name": "Chloe Bennett",
+      "pay_rate": 13.25,
+      "phone": "801-555-3003",
+      "role": "Drink Specialist",
+      "status": "onboarding"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "ethan.hunt@swigdrinks.com",
+      "hire_date": "2024-11-01",
+      "id": "EMP20",
+      "location_id": "L004",
+      "minor": false,
+      "name": "Ethan Hunt",
+      "pay_rate": 13.75,
+      "phone": "435-555-1006",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler",
+        "Shift Lead Cert"
+      ],
+      "department": "Front of House",
+      "email": "isabella.garcia@swigdrinks.com",
+      "hire_date": "2024-03-19",
+      "id": "EMP21",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Isabella Garcia",
+      "pay_rate": 16.0,
+      "phone": "385-555-5004",
+      "role": "Shift Lead",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler",
+        "Shift Lead Cert"
+      ],
+      "department": "Front of House",
+      "email": "lucas.martinez@swigdrinks.com",
+      "hire_date": "2023-08-24",
+      "id": "EMP22",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Lucas Martinez",
+      "pay_rate": 16.25,
+      "phone": "385-555-5005",
+      "role": "Shift Lead",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "harper.robinson@swigdrinks.com",
+      "hire_date": "2025-05-11",
+      "id": "EMP23",
+      "location_id": "L003",
+      "minor": true,
+      "name": "Harper Robinson",
+      "pay_rate": 13.0,
+      "phone": "385-555-5006",
+      "role": "Drink Specialist",
+      "status": "active",
+      "work_permit_expiry": "2027-04-01"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "mason.clark@swigdrinks.com",
+      "hire_date": "2024-11-14",
+      "id": "EMP24",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Mason Clark",
+      "pay_rate": 13.5,
+      "phone": "385-555-5007",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "evelyn.rodriguez@swigdrinks.com",
+      "hire_date": "2023-04-02",
+      "id": "EMP25",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Evelyn Rodriguez",
+      "pay_rate": 13.75,
+      "phone": "385-555-5008",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "elijah.lewis@swigdrinks.com",
+      "hire_date": "2025-06-01",
+      "id": "EMP26",
+      "location_id": "L003",
+      "minor": true,
+      "name": "Elijah Lewis",
+      "pay_rate": 13.0,
+      "phone": "385-555-5009",
+      "role": "Drink Specialist",
+      "status": "active",
+      "work_permit_expiry": "2027-05-15"
+    },
+    {
+      "certifications": [],
+      "department": "Front of House",
+      "email": "logan.lee@swigdrinks.com",
+      "hire_date": "2026-07-01",
+      "id": "EMP27",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Logan Lee",
+      "pay_rate": 13.25,
+      "phone": "385-555-5010",
+      "role": "Drink Specialist",
+      "status": "onboarding"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "ava.walker@swigdrinks.com",
+      "hire_date": "2024-01-20",
+      "id": "EMP28",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Ava Walker",
+      "pay_rate": 13.5,
+      "phone": "385-555-5011",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "jackson.hall@swigdrinks.com",
+      "hire_date": "2024-09-12",
+      "id": "EMP29",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Jackson Hall",
+      "pay_rate": 13.5,
+      "phone": "385-555-5012",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "madison.allen@swigdrinks.com",
+      "hire_date": "2025-02-28",
+      "id": "EMP30",
+      "location_id": "L003",
+      "minor": true,
+      "name": "Madison Allen",
+      "pay_rate": 13.0,
+      "phone": "385-555-5013",
+      "role": "Drink Specialist",
+      "status": "active",
+      "work_permit_expiry": "2027-02-15"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "sebastian.young@swigdrinks.com",
+      "hire_date": "2023-11-05",
+      "id": "EMP31",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Sebastian Young",
+      "pay_rate": 14.0,
+      "phone": "385-555-5014",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "scarlett.king@swigdrinks.com",
+      "hire_date": "2024-05-17",
+      "id": "EMP32",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Scarlett King",
+      "pay_rate": 13.75,
+      "phone": "385-555-5015",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [],
+      "department": "Front of House",
+      "email": "aiden.wright@swigdrinks.com",
+      "hire_date": "2026-07-02",
+      "id": "EMP33",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Aiden Wright",
+      "pay_rate": 13.25,
+      "phone": "385-555-5016",
+      "role": "Drink Specialist",
+      "status": "onboarding"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "emily.scott@swigdrinks.com",
+      "hire_date": "2024-07-11",
+      "id": "EMP34",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Emily Scott",
+      "pay_rate": 13.5,
+      "phone": "385-555-5017",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "matthew.torres@swigdrinks.com",
+      "hire_date": "2025-04-19",
+      "id": "EMP35",
+      "location_id": "L003",
+      "minor": true,
+      "name": "Matthew Torres",
+      "pay_rate": 13.0,
+      "phone": "385-555-5018",
+      "role": "Drink Specialist",
+      "status": "active",
+      "work_permit_expiry": "2027-03-30"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "aria.nguyen@swigdrinks.com",
+      "hire_date": "2023-12-10",
+      "id": "EMP36",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Aria Nguyen",
+      "pay_rate": 13.85,
+      "phone": "385-555-5019",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "david.green@swigdrinks.com",
+      "hire_date": "2024-02-22",
+      "id": "EMP37",
+      "location_id": "L003",
+      "minor": false,
+      "name": "David Green",
+      "pay_rate": 13.5,
+      "phone": "385-555-5020",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "chloe.baker@swigdrinks.com",
+      "hire_date": "2024-06-05",
+      "id": "EMP38",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Chloe Baker",
+      "pay_rate": 13.5,
+      "phone": "385-555-5021",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "joseph.adams@swigdrinks.com",
+      "hire_date": "2025-01-08",
+      "id": "EMP39",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Joseph Adams",
+      "pay_rate": 13.5,
+      "phone": "385-555-5022",
+      "role": "Drink Specialist",
+      "status": "active"
+    },
+    {
+      "certifications": [
+        "Food Handler"
+      ],
+      "department": "Front of House",
+      "email": "lily.nelson@swigdrinks.com",
+      "hire_date": "2024-10-18",
+      "id": "EMP40",
+      "location_id": "L003",
+      "minor": false,
+      "name": "Lily Nelson",
+      "pay_rate": 13.5,
+      "phone": "385-555-5023",
+      "role": "Drink Specialist",
+      "status": "active"
+    }
+  ],
+  "labor_summary": [
+    {
+      "breakdown": [
+        {
+          "cost": 10647.0,
+          "hours": 788.6,
+          "role": "Drink Specialist"
+        },
+        {
+          "cost": 2923.2,
+          "hours": 179.8,
+          "role": "Shift Lead"
+        }
+      ],
+      "labor_cost_pct": 18.2,
+      "location_id": "L004",
+      "period": "2026-06-08/2026-07-15",
+      "total_hours": 968.4,
+      "total_labor_cost": 13570.2
+    },
+    {
+      "breakdown": [
+        {
+          "cost": 8958.6,
+          "hours": 663.5,
+          "role": "Drink Specialist"
+        },
+        {
+          "cost": 2847.6,
+          "hours": 177.9,
+          "role": "Shift Lead"
+        }
+      ],
+      "labor_cost_pct": 17.9,
+      "location_id": "L005",
+      "period": "2026-06-08/2026-07-15",
+      "total_hours": 841.4,
+      "total_labor_cost": 11806.2
+    },
+    {
+      "breakdown": [
+        {
+          "cost": 8568.0,
+          "hours": 648.9,
+          "role": "Drink Specialist"
+        },
+        {
+          "cost": 3036.6,
+          "hours": 183.9,
+          "role": "Shift Lead"
+        }
+      ],
+      "labor_cost_pct": 18.5,
+      "location_id": "L003",
+      "period": "2026-06-08/2026-07-15",
+      "total_hours": 832.8,
+      "total_labor_cost": 11604.6
+    }
+  ],
+  "locations": [
+    {
+      "address": "4104 Riverdale Rd, Riverdale, UT 84405",
+      "id": "L001",
+      "manager": "Cassidy Reeves",
+      "manager_id": "EMP14",
+      "name": "Refresh Riverdale",
+      "phone": "801-555-0999"
+    },
+    {
+      "address": "320 N University Ave, Provo, UT 84601",
+      "id": "L002",
+      "manager": "Tanner Holm",
+      "manager_id": "EMP09",
+      "name": "Refresh Provo Canyon",
+      "phone": "801-555-0188"
+    },
+    {
+      "address": "11472 S District Main Dr, South Jordan, UT 84095",
+      "id": "L003",
+      "manager": "Jennifer Hynes",
+      "manager_id": "EMP16",
+      "name": "Refresh Daybreak",
+      "phone": "385-555-0567"
+    },
+    {
+      "address": "1045 E St. George Blvd, St. George, UT 84770",
+      "id": "L004",
+      "manager": "Brynn Lawson",
+      "manager_id": "EMP04",
+      "name": "Refresh St. George Blvd",
+      "phone": "435-555-0101"
+    },
+    {
+      "address": "3450 N Digital Dr, Lehi, UT 84043",
+      "id": "L005",
+      "manager": "Tyson Vance",
+      "manager_id": "EMP15",
+      "name": "Refresh Lehi Traverse",
+      "phone": "385-555-0412"
+    }
+  ],
+  "onboarding": [
+    {
+      "completion_pct": 50,
+      "employee_id": "EMP27",
+      "location_id": "L003",
+      "onboarding_id": "ONB03",
+      "start_date": "2026-07-01",
+      "status": "in_progress",
+      "tasks": [
+        {
+          "status": "completed",
+          "task": "I-9 Form"
+        },
+        {
+          "status": "completed",
+          "task": "W-4 Form"
+        },
+        {
+          "status": "pending",
+          "task": "Food Handler Certification"
+        },
+        {
+          "status": "in_progress",
+          "task": "Drink Build Training Module"
+        }
+      ]
+    },
+    {
+      "completion_pct": 30,
+      "employee_id": "EMP33",
+      "location_id": "L003",
+      "onboarding_id": "ONB04",
+      "start_date": "2026-07-02",
+      "status": "in_progress",
+      "tasks": [
+        {
+          "status": "completed",
+          "task": "I-9 Form"
+        },
+        {
+          "status": "pending",
+          "task": "W-4 Form"
+        },
+        {
+          "status": "pending",
+          "task": "Drive-Thru Training Module"
+        }
+      ]
+    }
+  ],
+  "open_shifts": [
+    {
+      "date": "2026-07-09",
+      "end_time": "20:00",
+      "location_id": "L005",
+      "open_shift_id": "OPN01",
+      "reason": "No coverage submitted",
+      "role": "Drink Specialist",
+      "start_time": "14:00",
+      "station": "Drink Build"
+    },
+    {
+      "date": "2026-07-13",
+      "end_time": "16:00",
+      "location_id": "L003",
+      "open_shift_id": "OPN02",
+      "reason": "Mason Clark on approved PTO",
+      "role": "Drink Specialist",
+      "start_time": "08:00",
+      "station": "Drink Build"
+    },
+    {
+      "date": "2026-07-14",
+      "end_time": "15:00",
+      "location_id": "L003",
+      "open_shift_id": "OPN03",
+      "reason": "Mason Clark on approved PTO",
+      "role": "Drink Specialist",
+      "start_time": "09:00",
+      "station": "Drive-Thru Window"
+    },
+    {
+      "date": "2026-07-17",
+      "end_time": "14:00",
+      "location_id": "L003",
+      "open_shift_id": "OPN04",
+      "reason": "Ava Walker out of town on PTO",
+      "role": "Drink Specialist",
+      "start_time": "07:00",
+      "station": "Drive-Thru Order"
+    },
+    {
+      "date": "2026-07-18",
+      "end_time": "23:00",
+      "location_id": "L003",
+      "open_shift_id": "OPN05",
+      "reason": "Scarlett King on approved PTO weekend",
+      "role": "Drink Specialist",
+      "start_time": "16:00",
+      "station": "Front Counter"
+    }
+  ],
+  "schedule": [
+    {
+      "date": "2026-07-07",
+      "employee_id": "EMP11",
+      "end_time": "21:00",
+      "location_id": "L005",
+      "role": "Drink Specialist",
+      "shift_id": "SHF10",
+      "start_time": "15:00",
+      "station": "Drink Build",
+      "status": "published"
+    },
+    {
+      "date": "2026-07-13",
+      "employee_id": "EMP21",
+      "end_time": "14:00",
+      "location_id": "L003",
+      "role": "Shift Lead",
+      "shift_id": "SHF20",
+      "start_time": "06:00",
+      "station": "Front Counter",
+      "status": "published"
+    },
+    {
+      "date": "2026-07-13",
+      "employee_id": "EMP25",
+      "end_time": "16:00",
+      "location_id": "L003",
+      "role": "Drink Specialist",
+      "shift_id": "SHF21",
+      "start_time": "08:00",
+      "station": "Drive-Thru Window",
+      "status": "published"
+    },
+    {
+      "date": "2026-07-15",
+      "employee_id": "EMP22",
+      "end_time": "23:00",
+      "location_id": "L003",
+      "role": "Shift Lead",
+      "shift_id": "SHF22",
+      "start_time": "15:00",
+      "station": "Front Counter",
+      "status": "published"
+    },
+    {
+      "date": "2026-07-15",
+      "employee_id": "EMP17",
+      "end_time": "21:00",
+      "location_id": "L003",
+      "role": "Drink Specialist",
+      "shift_id": "SHF23",
+      "start_time": "15:00",
+      "station": "Drink Build",
+      "status": "published"
+    },
+    {
+      "date": "2026-07-18",
+      "employee_id": "EMP23",
+      "end_time": "15:00",
+      "location_id": "L003",
+      "role": "Drink Specialist",
+      "shift_id": "SHF24",
+      "start_time": "09:00",
+      "station": "Drink Build",
+      "status": "draft"
+    }
+  ],
+  "time_and_attendance": [
+    {
+      "clock_in": "14:58",
+      "clock_out": "21:02",
+      "date": "2026-07-06",
+      "employee_id": "EMP11",
+      "hours_worked": 6.07,
+      "location_id": "L005",
+      "notes": "",
+      "record_id": "TNA10",
+      "shift_id": "SHF10"
+    }
+  ],
+  "time_off_requests": [
+    {
+      "dates": [
+        "2026-07-13",
+        "2026-07-14"
+      ],
+      "employee_id": "EMP24",
+      "location_id": "L003",
+      "reason": "Family Event",
+      "request_id": "TOR12",
+      "status": "approved",
+      "submitted_on": "2026-07-05"
+    },
+    {
+      "dates": [
+        "2026-07-17"
+      ],
+      "employee_id": "EMP28",
+      "location_id": "L003",
+      "reason": "Out of town",
+      "request_id": "TOR13",
+      "status": "approved",
+      "submitted_on": "2026-07-01"
+    },
+    {
+      "dates": [
+        "2026-07-18",
+        "2026-07-19"
+      ],
+      "employee_id": "EMP32",
+      "location_id": "L003",
+      "reason": "Personal Weekend",
+      "request_id": "TOR14",
+      "status": "approved",
+      "submitted_on": "2026-07-03"
+    }
+  ]
+}
